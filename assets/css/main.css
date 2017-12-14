@@ -1,0 +1,58 @@
+body {
+    background-color: skyblue;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+}
+.tamaño{
+    width: 300px;
+    position: relative;
+    bottom: 130px;
+}
+.food{
+    position: relative;
+    /* bottom: 20px; */
+    top: 80px;
+    z-index: 1;
+}
+.mapa{
+    border: none;
+    width: 100%;
+    /* height: auto; */
+    height: 245px;
+}
+.logo {
+    height: 360px;
+}
+.chips .input {
+    width: 300px !important;
+   
+}
+.img{
+    width: 100%;
+}
+
+p {
+    z-index: 1;
+    display: inline !important;
+}
+
+img.responsive-img {
+   margin-bottom: 20px;
+}
+#splashscreen {
+    background-color: black;
+}
+#splash {
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color: skyblue ;
+    z-index: 99;
+}
+.radio{
+    border-radius: 20px;
+    margin-top: 15%;
+}
